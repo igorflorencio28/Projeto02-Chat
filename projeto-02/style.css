@@ -1,0 +1,438 @@
+/* Desktop 2k */
+@media (max-width: 2560px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    
+    /* cabeçalho */
+    .conteiner {
+        width: 1024px;
+        height: 680px;
+        background-color: #1A1924;
+        border-radius: 10px;
+        padding: 40px 70px;
+    }
+    
+    .cabeçalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .perfil {
+        display: flex;
+        align-items: center;
+        gap: 15px
+    }
+    
+    .data {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    
+    
+    /* Conteúdo principal */
+    
+    .conteiner-corpo {
+        margin-top: 30px
+    }
+    
+    /* conversa 1 */
+    .chat1 {
+        margin-top: 5px
+    }
+    
+    /* conversa 2 */
+    .conversa2 {
+        margin-top: 30px;
+    }
+    
+    .chat2 {
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .foto2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    /* conversa 3 */
+    .conversa3 {
+        margin-top: 30px
+    }
+    .chat3 {
+        margin-top:10px;
+    }
+    
+    /* conversa 4 */
+    
+    .conversa4 {
+        margin-top: 30px;
+    }
+    
+    .foto4 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .chat4 {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    
+    /* chat */
+    
+    .chat {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+}
+
+/* desktop */
+@media (min-width: 769px) and (max-width: 1028px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+
+    /* cabeçalho */
+    .conteiner {
+        width:385px;
+        height: 750px;
+        background-color: #1A1924;
+        border-radius: 10px;
+        padding: 12px 24px;
+        
+    }
+
+    .cabeçalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .perfil {
+        width: 250px;
+        height: 88px;
+        display: flex;
+        align-items: center;
+        gap: 15px
+    }
+    
+    .data {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    /* Conteúdo principal */
+    
+    .conteiner-corpo {
+        margin-top: 30px
+    }
+    .foto1 {
+        width: 75px;
+        height: 14px;
+    }
+    /* conversa 1 */
+    .chat1 {
+        margin-top: 5px
+    }
+    
+    /* conversa 2 */
+    .conversa2 {
+        margin-top: 30px;
+    }
+    
+    .chat2 {
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .foto2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    /* conversa 3 */
+    .conversa3 {
+        margin-top: 30px
+    }
+    .chat3 {
+        margin-top:10px;
+    }
+    
+    /* conversa 4 */
+    
+    .conversa4 {
+        margin-top: 30px;
+    }
+    
+    .foto4 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .chat4 {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    
+    /* chat */
+    
+    .chat {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    
+}
+
+/* mobile e tablet */
+@media (min-width: 600px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+
+    /* cabeçalho */
+    .conteiner {
+        width:385px;
+        height: 750px;
+        background-color: #1A1924;
+        border-radius: 10px;
+        padding: 12px 24px;
+        
+    }
+
+    .cabeçalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .perfil {
+        width: 250px;
+        height: 88px;
+        display: flex;
+        align-items: center;
+        gap: 15px
+    }
+    
+    .data {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    /* Conteúdo principal */
+    
+    .conteiner-corpo {
+        margin-top: 30px
+    }
+    .foto1 {
+        width: 75px;
+        height: 14px;
+    }
+    /* conversa 1 */
+    .chat1 {
+        margin-top: 5px
+    }
+    
+    /* conversa 2 */
+    .conversa2 {
+        margin-top: 30px;
+    }
+    
+    .chat2 {
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .foto2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    /* conversa 3 */
+    .conversa3 {
+        margin-top: 30px
+    }
+    .chat3 {
+        margin-top:10px;
+    }
+    
+    /* conversa 4 */
+    
+    .conversa4 {
+        margin-top: 30px;
+    }
+    
+    .foto4 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .chat4 {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    
+    /* chat */
+    
+    .chat {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    
+}
+
+/* mobile */
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+
+    /* cabeçalho */
+    .conteiner {
+        width:385px;
+        height: 750px;
+        background-color: #1A1924;
+        border-radius: 10px;
+        padding: 12px 24px;
+        
+    }
+
+    .cabeçalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .perfil {
+        width: 250px;
+        height: 88px;
+        display: flex;
+        align-items: center;
+        gap: 15px
+    }
+    
+    .data {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    /* Conteúdo principal */
+    
+    .conteiner-corpo {
+        margin-top: 30px
+    }
+    .foto1 {
+        width: 75px;
+        height: 14px;
+    }
+    /* conversa 1 */
+    .chat1 {
+        margin-top: 5px
+    }
+    
+    /* conversa 2 */
+    .conversa2 {
+        margin-top: 30px;
+    }
+    
+    .chat2 {
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .foto2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    /* conversa 3 */
+    .conversa3 {
+        margin-top: 30px
+    }
+    .chat3 {
+        margin-top:10px;
+    }
+    
+    /* conversa 4 */
+    
+    .conversa4 {
+        margin-top: 30px;
+    }
+    
+    .foto4 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .chat4 {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    
+    /* chat */
+    
+    .chat {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    
+}
